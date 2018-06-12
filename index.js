@@ -71,7 +71,7 @@ function removeFromCart(item) {
   if (found === true){
       return cart
     } else {
-      return msg
+      return 'That item is not in your cart'
     }
 
 }
