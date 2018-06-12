@@ -14,9 +14,14 @@ function addToCart(item) {
 }
 
 function viewCart() {
+  var msg = "In your cart,"
+  if (cart.length === 0){
+        return "Your shopping cart is empty."
+      } else if (cart.length === 2) {
+        
+      }
   for (let i = 0; i < cart.length; i++) {
-    
-
+      
   }
 }
 
