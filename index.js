@@ -79,4 +79,4 @@ function placeOrder(cardNumber) {
   // write your code here
 }
 
-removeFromCart("banana")
+removeFromCart("pear")
