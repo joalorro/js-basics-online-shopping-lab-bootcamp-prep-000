@@ -22,6 +22,7 @@ function viewCart() {
       } else if (cart.length ===1){
         
         msg = `${msg} ${cart[0][itemName] } priced at $${cart[0][itemPrice]}.`
+        return msg
         
       } else if (cart.length === 2) {
         
