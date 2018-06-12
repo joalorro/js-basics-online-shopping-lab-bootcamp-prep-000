@@ -1,4 +1,4 @@
-var cart = []
+var cart = [{itemName: "banana", itemPrice: 55}]
 
 function getCart() {
  return cart;
@@ -63,6 +63,7 @@ function removeFromCart(item) {
     if (item === cart[i].itemName) {
       cart.splice(i, 1)
       found = true
+      console.log(item + " was removed")
     }
     
     if (found === true){
@@ -77,3 +78,5 @@ function removeFromCart(item) {
 function placeOrder(cardNumber) {
   // write your code here
 }
+
+removeFromCart("banana")
