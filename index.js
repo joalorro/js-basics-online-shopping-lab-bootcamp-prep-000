@@ -66,14 +66,15 @@ function removeFromCart(item) {
       console.log(item + " was removed")
     }
     
-    if (found === true){
+  }
+  
+  if (found === true){
       return cart
     } else {
       msg = 'That item is not in your cart'
       console.log(msg)
       return msg
     }
-  }
 
 }
 
