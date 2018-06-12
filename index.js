@@ -1,4 +1,4 @@
-var cart = [{itemName:"bananas", itemPrice:17 }];
+var cart = []
 
 function getCart() {
  return cart;
@@ -15,24 +15,7 @@ function addToCart(item) {
 
 function viewCart() {
   var msg = "In your cart, you have "
-  
-  if (cart.length === 0){
-    
-        return "Your shopping cart is empty."
-        
-      } else if (cart.length == 1){
-        
-        msg = `${msg} ${cart[0][itemName] } priced at $${cart[0][itemPrice]}.`
-        console.log(msg)
-        return msg
-        
-      } else if (cart.length == 2) {
-      
-        for (let i = 0; i < cart.length; i++) {
-          msg
-      
-        }      
-      }
+
   
 }
 
