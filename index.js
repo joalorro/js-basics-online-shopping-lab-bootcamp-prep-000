@@ -19,8 +19,13 @@ function addToCart(item) {
 
 function viewCart() {
   var msg = "In your cart, you have "
+  var currentItem
   if (cart.length === 0 ){
     return 'Your shopping cart is empty.'
+  } else if (cart.length === 1){
+    currentItem = cart[0]
+    return `${msg} ${currentItem['itemName'] at $${currentItem["itemPrice"]}.`
+    
   }
   
 }
