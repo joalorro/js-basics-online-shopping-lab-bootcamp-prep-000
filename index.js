@@ -1,4 +1,4 @@
-var cart = [{itemName: "banana", itemPrice: 55}]
+var cart = [{itemName: "banana", itemPrice: 55}, {itemName: "yams", itemPrice: 56}, {itemName: 'pickles', itemPrice: 77}]
 
 function getCart() {
  return cart;
@@ -81,4 +81,6 @@ function placeOrder(cardNumber) {
   // write your code here
 }
 
+console.log(cart)
 removeFromCart("pear")
+console.log(cart)
