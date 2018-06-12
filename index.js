@@ -57,8 +57,8 @@ function total() {
 }
 
 function removeFromCart(item) {
-
   var found = false;
+  
   for (let i = 0; i < cart.length; i++){
     if (item === cart[i].itemName) {
       cart.splice(i, 1)
@@ -82,9 +82,3 @@ function placeOrder(cardNumber) {
   // write your code here
 }
 
-console.log(cart)
-removeFromCart("yams")
-console.log(cart)
-removeFromCart("weins")
-removeFromCart("pickles")
-console.log(cart)
