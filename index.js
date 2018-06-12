@@ -26,6 +26,19 @@ function viewCart() {
     return `${msg} ${currentItem['itemName']} at $${currentItem["itemPrice"]}.`
   } else if (cart.length === 2){
     return `${msg} ${cart[0]['itemName']} at $${cart[0]["itemPrice"]}, and ${cart[1]['itemName']} at $${cart[1]['itemPrice']}.`
+  } else if (cart.length > 2){
+    
+    for (let i = 0; i < cart.length; i++){
+      currentItem = cart[i]
+      
+      if (i != cart.length - 1){
+        msg = `${msg} ${currentItem.itemName} at $${currentItem.itemPrice}, `
+      } else {
+        msg = `${msg}and ${currentItem.itemName} at $${currentItem.itemPrice}.`
+      }
+      
+    }
+    
   }
   
 }
