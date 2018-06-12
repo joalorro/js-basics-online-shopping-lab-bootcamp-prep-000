@@ -15,6 +15,7 @@ function addToCart(item) {
 
 function viewCart() {
   var msg = "In your cart, you have "
+  
   if (cart.length === 0){
     
         return "Your shopping cart is empty."
@@ -48,3 +49,4 @@ function placeOrder(cardNumber) {
 }
 
 viewCart();
+console.log(cart)
