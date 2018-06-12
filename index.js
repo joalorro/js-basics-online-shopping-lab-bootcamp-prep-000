@@ -80,7 +80,7 @@ function placeOrder(cardNumber) {
   var msg
   var sum = total();
   
-  if (isNaN(cardNumber) === false){
+  if (isNaN(cardNumber) ){
     return "Sorry, we don't have a credit card on file for you."
   } else {
     
