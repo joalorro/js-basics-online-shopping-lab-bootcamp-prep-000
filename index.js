@@ -1,4 +1,4 @@
-var cart = [];
+var cart = [{itemName:"bananas", itemPrice:"17" }, {}];
 
 function getCart() {
  return cart;
@@ -21,7 +21,7 @@ function viewCart() {
         
       } else if (cart.length ===1){
         
-        msg = `${msg} ${cart[0][itemName] } priced at ${cart[0][itemPrice]}.`
+        msg = `${msg} ${cart[0][itemName] } priced at $${cart[0][itemPrice]}.`
         
       } else if (cart.length === 2) {
         
