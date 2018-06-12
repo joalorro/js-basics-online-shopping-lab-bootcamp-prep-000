@@ -84,6 +84,7 @@ function placeOrder(cardNumber) {
 
 console.log(cart)
 removeFromCart("yams")
+console.log(cart)
 removeFromCart("weins")
 removeFromCart("pickles")
 console.log(cart)
