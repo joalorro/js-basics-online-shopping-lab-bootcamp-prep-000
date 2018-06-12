@@ -22,6 +22,7 @@ function viewCart() {
       } else if (cart.length ===1){
         
         msg = `${msg} ${cart[0][itemName] } priced at $${cart[0][itemPrice]}.`
+        console.log(msg)
         return msg
         
       } else if (cart.length === 2) {
@@ -45,3 +46,4 @@ function removeFromCart(item) {
 function placeOrder(cardNumber) {
   // write your code here
 }
+
