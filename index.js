@@ -38,9 +38,9 @@ function viewCart() {
         msg = `${msg}and ${currentItem.itemName} at $${currentItem.itemPrice}.`
       }
       
-      return msg
+      
     }
-    
+   return msg 
   }
   
 }
