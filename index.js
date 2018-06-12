@@ -21,12 +21,12 @@ function viewCart() {
         
       } else if (cart.length ===1){
         
-        return `${msg} ${cart[0]}.~
-      } 
-      else if (cart.length === 2) {
+        msg = `${msg} 
+        
+      } else if (cart.length === 2) {
         
         for (let i = 0; i < cart.length; i++) {
-          msg = `${msg} you have 
+          msg
       
         }      
       }
