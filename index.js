@@ -24,7 +24,7 @@ function viewCart() {
     return 'Your shopping cart is empty.'
   } else if (cart.length === 1){
     currentItem = cart[0]
-    return `${msg} ${currentItem['itemName'] at $${currentItem["itemPrice"]}.`
+    return `${msg} ${currentItem['itemName']} at $${currentItem["itemPrice"]}.`
     
   }
   
