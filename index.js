@@ -85,5 +85,6 @@ function placeOrder(cardNumber) {
     msg = `Your total cost is $${total()}, which will be charged to the card ${cardNumber}.`
     
   }
+  return msg
 }
 
