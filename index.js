@@ -82,5 +82,5 @@ function placeOrder(cardNumber) {
 }
 
 console.log(cart)
-removeFromCart("pear")
+removeFromCart("banana")
 console.log(cart)
