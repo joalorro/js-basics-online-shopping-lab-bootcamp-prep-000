@@ -49,4 +49,4 @@ function placeOrder(cardNumber) {
 }
 
 viewCart();
-console.log(cart)
+console.log(cart.length)
