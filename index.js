@@ -32,7 +32,7 @@ function viewCart() {
     for (let i = 0; i < cart.length; i++){
       currentItem = cart[i]
       
-      if (i != cart.length){
+      if (i < cart.length){
         msg = `${msg} ${currentItem.itemName} at $${currentItem.itemPrice}, `
       } else {
         msg = `${msg}and ${currentItem.itemName} at $${currentItem.itemPrice}.`
